@@ -1,0 +1,36 @@
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: lightblue;
+    width: 25%;
+    border: 2px solid lightblue;
+    border-radius: 3%;
+}
+
+.alignToDoList{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: lightcyan;
+}
+
+.alignToDoList p{
+    position: relative;
+    width: 55%;
+    font-size: 20px;
+    height: fit-content;
+    word-wrap: break-word;
+}
+.toDoListDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.dashedText{
+    text-decoration: line-through;
+}
